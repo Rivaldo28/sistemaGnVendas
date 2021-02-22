@@ -1,0 +1,22 @@
+{
+    "name": "gnvendas/composer",
+    "description": "gn-vendas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rivaldo Souza",
+            "email": "rivaldo.lsouza@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "clancats/hydrahon": "^1.1",
+        "gerencianet/gerencianet-sdk-php": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/",
+            "src\\": "src/"
+        }
+    }
+}
