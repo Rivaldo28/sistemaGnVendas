@@ -32,9 +32,11 @@ use \core\Model;
 class Usuario extends Model {
 
 }
+##
+
+
 Criar Banco de Dados```
 
-drop database gn_vendas;
 create database gn_vendas;
 use gn_vendas;
 
